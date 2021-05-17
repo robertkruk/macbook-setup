@@ -11,7 +11,7 @@ To upgrade all softwares installed by cask later, just run this below command:
 
 ## 🎯 Features
 
--   Brew [routing](https://brew.sh)
+-   Brew [brew.sh](https://brew.sh)
 
 
 ## ⚠️ Note
