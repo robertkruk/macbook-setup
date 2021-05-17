@@ -12,8 +12,8 @@ brew install git zsh
 
 # apps
 echo Installing desktop apps...
-brew install --cask adobe-acrobat-reader zoom microsoft-edge microsoft-office
-# utils
+brew install --cask adobe-acrobat-reader zoom microsoft-edge microsoft-office microsoft-teams
+# utils 
 echo Installing utilities...
 brew install --cask istat-menus clipy openvpn-connect the-unarchiver adguard
 # dev tools
