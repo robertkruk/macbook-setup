@@ -13,11 +13,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Brew install
 echo Installing basic homebrew softwares...
-brew install git zsh
+brew install git zsh github
 
 # apps
 echo Installing desktop apps...
-brew install --cask adobe-acrobat-reader zoom microsoft-edge microsoft-office microsoft-teams
+brew install --cask adobe-acrobat-reader zoom microsoft-edge microsoft-office microsoft-teams microsoft-remote-desktop
 # utils 
 echo Installing utilities...
 brew install --cask istat-menus clipy openvpn-connect the-unarchiver adguard
