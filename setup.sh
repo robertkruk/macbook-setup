@@ -18,7 +18,8 @@ echo Installing utilities...
 brew install --cask istat-menus clipy openvpn-connect the-unarchiver adguard
 # dev tools
 echo Installing dev tools...
-brew install --cask visual-studio-code zsh-autosuggestions zsh-syntax-highlighting
+brew install --cask visual-studio-code
+brew install zsh-autosuggestions zsh-syntax-highlighting
 
 # default-writes
 echo Setting default-writes...
