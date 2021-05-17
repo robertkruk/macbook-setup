@@ -7,6 +7,11 @@ echo Installing Homebrew...
 export PATH=/opt/homebrew/bin:$PATH
 brew update
 
+# brew config for m1
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Brew install
 echo Installing basic homebrew softwares...
 brew install git zsh
 
