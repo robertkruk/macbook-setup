@@ -22,8 +22,8 @@ brew install --cask visual-studio-code
 brew install zsh-autosuggestions zsh-syntax-highlighting
 
 # default-writes
-echo Setting default-writes...
-sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/robertkruk/macbook-setup/main/default-writes.sh)"
+# echo Setting default-writes...
+# sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/robertkruk/macbook-setup/main/default-writes.sh)"
 
 # oh-my-zsh
 echo Installing Oh-my-zsh...
