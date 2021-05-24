@@ -11,6 +11,7 @@ brew update
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+
 # Brew install
 echo Installing basic homebrew softwares...
 brew install git zsh github
@@ -36,9 +37,39 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # Pyenv
+# pyenv is a Open-Source Package Manager for python version control in a single system. Setting up python using pyenv in very easy and effective. This will not imapct system python version
 brew update
 brew install pyenv
+#Although not required, the pyenv wiki recommends installing some additional libraries
 brew install openssl readline sqlite3 xz zlib
+
+# install latest as at May 2021
+pyenv install 3.9.5
+#set default
+pyenv global 3.9.5         
+# Finally check available version(s) with pyenv by pyenv versions
+
+# Profile for bash and ZSH
+# Add pyenv executable to PATH and
+# enable shims by adding the following
+# to ~/.profile and ~/.zprofile:
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
+echo 'eval "$(pyenv init --path)"' >> ~/.profile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+
+
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+brew doctor
+
+#Updating App Store Application from command line -
+brew install mas
+mas upgrade 
 
 echo "Done"
 
