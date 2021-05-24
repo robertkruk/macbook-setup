@@ -35,6 +35,11 @@ echo Installing Oh-my-zsh...
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
+# Pyenv
+brew update
+brew install pyenv
+brew install openssl readline sqlite3 xz zlib
+
 echo "Done"
 
 # To upgrade all softwares installed by cask later, just run this below command:
