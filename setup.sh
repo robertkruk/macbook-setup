@@ -71,6 +71,9 @@ brew doctor
 brew install mas
 mas upgrade 
 
+# AWS remote codecommit
+pip install git-remote-codecommit
+
 echo "Done"
 
 # To upgrade all softwares installed by cask later, just run this below command:
