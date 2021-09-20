@@ -26,7 +26,9 @@ brew install --cask istat-menus clipy openvpn-connect the-unarchiver adguard
 echo Installing dev tools...
 brew install --cask visual-studio-code
 brew install zsh-autosuggestions zsh-syntax-highlighting
+# Work
 brew install slack
+brew install 1password
 
 # default-writes
 # echo Setting default-writes...
