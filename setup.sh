@@ -29,6 +29,7 @@ brew install zsh-autosuggestions zsh-syntax-highlighting
 # Work
 brew install slack
 brew install 1password
+brew install google-drive
 
 # default-writes
 # echo Setting default-writes...
