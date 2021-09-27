@@ -1,8 +1,11 @@
 # 💻 macbook-setup
-Script to setup my M1 Macbook. Optimized for engineeer.
+Script to setup my M1 Macbook. Optimized for DevOps engineeer.
+
+*NOTE* this is BETA and still WIP.
 
 ## ⚙️ Usage
 
+*NOTE* not working. run manually.
 ```sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/{user}/macbook-setup/main/setup.sh)"```
 
 To upgrade all softwares installed by cask later, just run this below command:
