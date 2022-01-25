@@ -1,22 +1,36 @@
 # 💻 macbook-setup
+
 Script to setup my M1 Macbook. Optimized for DevOps engineeer.
 
-*NOTE* this is BETA and still WIP.
+_NOTE_ this is BETA and still WIP.
 
 ## ⚙️ Usage
 
-*NOTE* not working. run manually.
-```sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/{user}/macbook-setup/main/setup.sh)"```
+_NOTE_ not working. run manually.
+`sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/{user}/macbook-setup/main/setup.sh)"`
 
 To upgrade all softwares installed by cask later, just run this below command:
 
-```brew upgrade --cask --greedy```
+`brew upgrade --cask --greedy`
 
 ## 🎯 Features
 
--   Brew [brew.sh](https://brew.sh)
-
+- Brew [brew.sh](https://brew.sh)
 
 ## ⚠️ Note
-To install Docker, you will need to manually download the Tech Preview version at: https://docs.docker.com/docker-for-mac/apple-m1/
 
+brew install list needs cleanup
+
+# Nix
+
+run the following after configuring nix.conf
+`nix-env -iA nixpkgs.nix`
+
+## Brew list
+
+current export
+`brew list -1 `
+
+```
+
+```
