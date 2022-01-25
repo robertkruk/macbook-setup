@@ -86,9 +86,14 @@ brew tap homebrew/cask-versions
 brew install --cask slack-beta
 brew install --cask docker
 
+# Hashicorp
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform-ls
+brew install hashicorp/tap/packer
+
 # the following was from old M1 Mac
 # Install all brew from old mac
-brew install autoconf awscli brotli c-ares ca-certificates cairo curl cyberduck eslint fontconfig freetype fribidi gdbm gettext giflib git glib gmp gnutls gobject-introspection graphite2 groonga guile harfbuzz icu4c jemalloc jpeg jq libev libevent libexif libffi libidn2 libnghttp2 libpng libpthread-stubs libslirp libssh libssh2 libtasn1 libtiff libtool libunistring libusb libuv libx11 libxau libxcb libxdmcp libxext libxrender libyaml lzo m4 mariadb mas mecab mecab-ipadic mono-libgdiplus mpdecimal msgpack mysql-client mysql-client@5.7 ncurses nettle nghttp2 node oniguruma openldap openssl@1.1 openssl@3 p11-kit packer pango pcre pcre2 pixman pkg-config pyenv python@3.10 python@3.9 qemu rbenv readline rtmpdump ruby ruby-build six snappy sqlite telnet terraform-ls tflint tfsec thefuck typescript unbound vde xorgproto xz zlib zsh zsh-autosuggestions zsh-git-prompt zsh-syntax-highlighting zstd
+brew install autoconf awscli brotli c-ares ca-certificates cairo curl cyberduck eslint fontconfig freetype fribidi gdbm gettext giflib git glib gmp gnutls gobject-introspection graphite2 groonga guile harfbuzz icu4c jemalloc jpeg jq libev libevent libexif libffi libidn2 libnghttp2 libpng libpthread-stubs libslirp libssh libssh2 libtasn1 libtiff libtool libunistring libusb libuv libx11 libxau libxcb libxdmcp libxext libxrender libyaml lzo m4 mariadb mas mecab mecab-ipadic mono-libgdiplus mpdecimal msgpack mysql-client mysql-client@5.7 ncurses nettle nghttp2 node oniguruma openldap openssl@1.1 openssl@3 p11-kit packer pango pcre pcre2 pixman pkg-config pyenv python@3.10 python@3.9 qemu rbenv readline rtmpdump ruby ruby-build six snappy sqlite telnet tflint tfsec thefuck typescript unbound vde xorgproto xz zlib zsh zsh-autosuggestions zsh-git-prompt zsh-syntax-highlighting zstd
 brew install dotnet-sdk 1password-beta google-drive mysqlworkbench postico powershell royal-tsx safari-technology-preview session-manager-plugin webex-meetings teamviewer yt-music
 
 # Nix-Shell (M1)
@@ -97,6 +102,8 @@ curl -L https://nixos.org/nix/install | sh -s -- --darwin-use-unencrypted-nix-st
 sudo mkdir /etc/nixsudo 
 touch /etc/nix/nix.conf
 sudo nano /etc/nix/nix.conf
+
+# Vault Config
 
 echo "Done"
 
