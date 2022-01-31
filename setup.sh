@@ -77,6 +77,7 @@ mas install 1440147259 # adguard for safari
 mas install 441258766 # Magnet
 mas install 497799835 # XCode
 mas install 1319778037 # iStat menus
+mas install 1475897096 # jira cloud
 
 # AWS remote codecommit
 # pip install git-remote-codecommit
